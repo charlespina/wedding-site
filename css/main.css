@@ -1,0 +1,220 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+    background: top left repeat url(../images/bg.jpg) white;
+    font: 14px 'Lusitana', serif; /* Helvetica, Arial, sans-serif; */
+    /* font-size: small; /*12px;*/
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 100%; 
+}
+
+#home h1,
+#home h2 {
+    text-align: center;
+}
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a, a:visited  { color: maroon; text-decoration: none; }
+a:hover       { 
+    text-decoration: underline; 
+}
+
+p a, p a:visited, p a:hover {
+    font-weight: bold;
+}
+
+
+.site {
+    font-size: 115%;
+    text-align: justify;
+    min-width: 24em;
+    max-width: 42em;
+    margin: 3.6em auto 2em;
+    padding: 0 1em;
+    line-height: 1.5em;
+}
+
+.header {
+    margin-bottom: 2.4em;
+    margin-top: 0;
+}
+
+.header a {
+    font-weight: normal;
+    text-decoration: none;
+}
+.header a, 
+.header a:visited,
+.header a:active {
+    color: #272727;
+}
+.header a:hover {
+    color: maroon;
+    background: center 2.4em no-repeat url(../images/underline.png) transparent;
+}
+
+.header .title {
+    background-color: #eee;
+    font-size: 2em;
+    text-align: center;
+    height: 400px;
+    background: top center no-repeat url(../images/banner_v2.png);
+    line-height: 0;
+    margin: 0;
+    margin-top: 1.2em;
+    position: relative;
+}
+
+.header .title a {
+    display: none;
+    color: #272727;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 1.2em;
+}
+
+.header .title a:hover {
+}
+
+.header ul {
+    margin-top: 2.4em;
+    text-align: left;
+    text-indent: 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.header li {
+    display: inline;
+    margin: 0;
+}
+
+.header li a {
+    padding: 1.2em;
+}
+
+#home h1 {
+}
+
+#home header h2 {
+    margin-bottom: 1.2em;
+}
+
+#home header h1 {
+    margin-bottom: 0;
+}
+
+.after-party {
+    margin: auto;
+    width: 50%;
+}
+
+dl {
+    width: 50%;
+    margin: auto;
+    margin-top: 0.6em;
+    display: block;
+    overflow: hidden;
+}
+
+dt {
+    position: relative;
+    width: 30%;
+    float: left;
+    font-weight: bold;
+}
+
+dd {
+    width: 70%;
+    float: left;
+}
+
+br {
+    clear: both;
+}
+
+.footer {
+    color: #666;
+    /* margin-top: 4em !important; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.pineapple {
+    background: bottom center no-repeat url(../images/pineapple.png);
+    width: 50%;
+    margin: auto;
+    height: 140px;
+    overflow: hidden;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.schedule {
+    margin-top: 3.6em;
+}
+
+.footer .address ul {
+    display: block;
+    text-indent: 0;
+    list-style: none;
+    margin: 0;
+    margin: auto;
+}
+
+.footer .address li {
+    text-align: center;
+}
+
+.two-column {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 2.4em;
+}
+
+.two-column div {
+    text-align: left;
+    float: left;
+    width: 40%;
+    padding: 0 10% 0 0;
+}
+
+#about_charles {
+}
+
+#about_how {
+}
